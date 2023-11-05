@@ -1,0 +1,82 @@
+
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;    
+}
+
+.team-box {
+    color: black;
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: 500;
+  background-color : transparent ; 
+  border :2px solid #1ECD97 ; 
+  padding :13px ; 
+  width :300px ; 
+  box-sizing:border-box ; 
+  outline:none;
+
+     /* Optional - add some margin between the boxes */
+     margin-bottom:10px;   
+ }
+
+ /* Remove margin from last box */
+ .team-box:last-child {
+   margin-bottom:0;	
+ }
+
+ .input-container {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     margin-bottom: 10px;
+
+     /* Added styling for input container */
+   background-color : #F4F4F4 ;
+   border-radius :3 px   ;
+   padding-left :10 px   ;
+   padding-right :10 px   ;
+ }
+
+ .input-container input[type="text"] {
+     flex-grow: 1;
+
+     /* Added styling for text input */
+   border:none ;
+   padding :5 px   ;
+   background-color : transparent ; 
+ }
+
+ .input-container button {
+     background-color:#1ECD97 ;
+    color:white ;
+    border:none ;
+
+    /* Added styling for button */
+  padding :8 px 15 px   ;
+  border-radius :3 px   ;
+  cursor:pointer ;
+
+}
+
+/* Added styling for result text */
+.result-text {
+    color: #1ECD97;
+    font-size: 16px;
+}
+
+/* Added styling for game title */
+.game-title {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+/* Added styling for line */
+.line {
+    border-top: 1px solid #1ECD97;
+    margin-bottom: 10px;
+}
