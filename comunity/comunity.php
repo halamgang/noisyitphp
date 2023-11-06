@@ -37,8 +37,6 @@ if (!empty($users)) {
     }
 }
 ?>
-
-?>
 <?php
 function encrypt($plaintext, $key) {
     $method = 'aes-128-cbc';
