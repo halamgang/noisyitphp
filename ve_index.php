@@ -91,7 +91,7 @@ if (isset($user_username)) {
             <!-- 3초 마다 가져옴-->
             <span id="profilePText">
                 <?php
-                    echo isset($points) ? htmlspecialchars($points) . "p" : "0p";
+                    echo isset($points) ? htmlspecialchars($points) . "p" : "10000p";
                 ?>
             </span>
         </div>
