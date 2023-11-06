@@ -1,4 +1,5 @@
 <?php 
+session_start();
     // php 모든 시스템은 '/system/php/파일값.php 에 넣어놈 이건 ve_index
     include_once($_SERVER['DOCUMENT_ROOT'] . '/system/php/ve_index_php.php');
 ?>
