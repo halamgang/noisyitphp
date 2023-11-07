@@ -1,7 +1,7 @@
 <?php
 session_start();
 $remainingAttempts = 0; // or any other default value
-$string = file_get_contents("/login/users.json");
+$string = file_get_contents("../login/users.json");
 
 if ($string === false) {
     die('웹서버를 불러오는 도중 실패했습니다. 문의하세요.');
@@ -19,7 +19,7 @@ if (isset($_SESSION["username"])) {
     $username = "미가입자";
 }
 
-$string = file_get_contents("/login/users.json");
+$string = file_get_contents("../login/users.json");
 $json_a = json_decode($string, true);
 
 $point = "0"; 
@@ -42,7 +42,7 @@ foreach ($json_a as &$user) {
     }
 }
 
-file_put_contents("/login/users.json", json_encode($json_a, JSON_PRETTY_PRINT | JSON_UNESCAPED_UNICODE));
+file_put_contents("../login/users.json", json_encode($json_a, JSON_PRETTY_PRINT | JSON_UNESCAPED_UNICODE));
 ?>
 
 <!DOCTYPE html>
