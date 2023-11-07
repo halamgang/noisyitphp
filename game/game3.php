@@ -135,7 +135,7 @@ document.getElementById('start-button').addEventListener('click', function() {
         if (remainingTime <= 0) {
             clearInterval(timer); // 타이머 중지
 
-            if (clickCount >= 300) {
+            if (clickCount >= 100) {
                 alert('성공');
                 updatePoints(1000); // 성공 시 포인트 추가 (예시로 100 포인트 추가)
             } else {
