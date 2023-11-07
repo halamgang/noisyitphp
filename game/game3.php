@@ -8,6 +8,11 @@ if ($string === false) {
     die('웹서버를 불러오는 도중 실패했습니다. 문의하세요.');
 }
 
+if(!isset($_SESSION['admin']) || !$_SESSION['admin']) {
+    header('Location: /index.php');
+    exit;
+}
+
 $json_a = json_decode($string, true);
 
 if ($json_a === null) {
