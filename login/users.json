@@ -4,9 +4,9 @@
         "name": "i+rhyIphjF7ntSuOq7yVV2l2aW9kS1hETUhxYjRiMUtOUkVPcUE9PQ==",
         "password": "Cha0BGLuQUJv8GHs2BcVsm43ZGtRbnYrYno1SnlPVlNPZGlDbmc9PQ==",
         "phone": "oeO9UdNkI9SBY2IdQ+TmFURrQTlEa0xPcVhzM1BoZkxYOEh0Qnc9PQ==",
-        "point": "49200",
+        "point": "0",
         "value": 0,
-        "value2": "16",
+        "value2": "0",
         "rank": "user"
     },
     {
@@ -114,9 +114,9 @@
         "name": "3qEAkTXB115sUo5YFmYH\/2lWZEFSam9NUy8rdm42bUVrQ3BjdWc9PQ==",
         "password": "mhmLc6rn8FJfkRJ1xWZMxEVpcWsxVzR0bTlNSDlHUGtJWE5ML1E9PQ==",
         "phone": "tPJBbnnSj0DYNeQ7t7gE3EkySmpjU0Y4QXBFanNiZkQySjNTRFE9PQ==",
-        "point": 10100,
+        "point": 10180,
         "value": 0,
-        "value2": 10,
+        "value2": "7",
         "rank": "user"
     },
     {
@@ -124,7 +124,7 @@
         "name": "SaAOFx1YQw1ArzMxM6B3gEUxSWNSb3JkZ0xzOVlpbVV3K01oTEE9PQ==",
         "password": "jCfpOt1mYyiVX0R1Oh9WVVYyeEdTdElpRVlpMEFXemRQcllCWFE9PQ==",
         "phone": "btLMWQGwT8klmVlgbgV9jXVDR3RnMmhsRkc4MjJOTWNoRWN5Q2c9PQ==",
-        "point": 116298,
+        "point": 452138,
         "value": 0,
         "value2": "0",
         "rank": "user"
@@ -194,7 +194,7 @@
         "name": "AfaBFEhodgBS58dFAINA5GptQjFneEJyTW9tbHhVcWN1UEZ4M1E9PQ==",
         "password": "JfNtTM1W9Gnulzg4il+RK3dRQlRvdGxpNjhHaWQrdlVqZlJkdXc9PQ==",
         "phone": "Rax29YxEdO7\/wMqvLhtbo25aZXlzNktjVDVKTXFQTWU5b1JGRXc9PQ==",
-        "point": "350",
+        "point": "200",
         "value": 0,
         "value2": "0",
         "rank": "user"
@@ -214,7 +214,7 @@
         "name": "UFJN3FCMJB3WvP+5KdKn0U1lQmljdGVGM0RhRW92a2VwNmkvckE9PQ==",
         "password": "kz93S18J2O6PY6eMwp7Ebm1ycEd3dTNwK3FTUHA2UExrNDU2dHc9PQ==",
         "phone": "a9HJiBNkmiodOz7rqj6BkDhBaTJsZG9EbjlkbCtxQnB2Q2JHblE9PQ==",
-        "point": 7530,
+        "point": 230,
         "value": 0,
         "value2": "0",
         "rank": "user"
@@ -254,7 +254,7 @@
         "name": "I+cbAVq1aeqY5YGaFBShVkFKMXgvc0pkZ0VQRG1icHArTjVxUkE9PQ==",
         "password": "klESR86jUGnO5dNPPDj\/oEhBd1o2bVBoZXUyZHJXKzNDZTg1U3c9PQ==",
         "phone": "8mSFoQqDHc2plWO2zPJIzDNJOGFQNyt3MHRwMkovVTh6RmlKZnc9PQ==",
-        "point": "20980",
+        "point": 120050,
         "value": 0,
         "value2": "0",
         "rank": "user"
@@ -264,7 +264,7 @@
         "name": "GfA9hGSLkhA7IDnyy159Mmw2M0xyS3g5bmI5Q2szVjhlSWQ2UlE9PQ==",
         "password": "mWDfNTKL48m8ybxAf3iwvXNDemRRd0dqTEo2K00rdy9uZndTblE9PQ==",
         "phone": "Vz0mAezoLo+RxV10QNblPUEzajRvZ25BY2JCQkVwaDlLZDl1L3c9PQ==",
-        "point": "22760",
+        "point": "760",
         "value": 0,
         "value2": "0",
         "rank": "user"
@@ -317,6 +317,36 @@
         "point": "10000",
         "value": 0,
         "value2": 0,
+        "rank": "user"
+    },
+    {
+        "username": "11412",
+        "name": "yecWtn8zHE8WPQkoBNRIkSsrNkdHeEt1cUQ5RU9IT0lSVzRDQVE9PQ==",
+        "password": "u2l3aLkdTn9G1nSWxO6JUXY5cTZpR1VaUEU2WE5UTmRvQmp4TXc9PQ==",
+        "phone": "6oVsqmOOB2q1EQZdzoNs+Ux6MkZzWHN3REkzZlBmdE1WZHRVUnc9PQ==",
+        "point": 10000,
+        "value": 0,
+        "value2": 20,
+        "rank": "user"
+    },
+    {
+        "username": "11409",
+        "name": "RVlx8IksL8VPyVE7mJpbQEUxNUlROFVOak9vS2hlM0p5QWd5MEE9PQ==",
+        "password": "i9tsCDEkga6phwW5SdrW90lVd05VWVhQRVIyYUQwTUFJbVVXeVE9PQ==",
+        "phone": "oDM0VrJdbF7ayAJZeAPaNWxFQk5wU2hoK0ZOWWJ2dUFPcVRQR1E9PQ==",
+        "point": "200",
+        "value": 0,
+        "value2": "0",
+        "rank": "user"
+    },
+    {
+        "username": "11401",
+        "name": "+tlPNHyVgE69wSBnCAPY+G8vVzJqZjhZdzUyQUhZY0lvME0yRmc9PQ==",
+        "password": "DFEA52sw9yD6Ft5mUHyEHE5TNm5vRzNQOXBLSnkvR3p0NlNrT2c9PQ==",
+        "phone": "ZcIgZ0les9hr7NAOWCjNB003cTNWRDJnVkRZTVg3UE5idFJFanc9PQ==",
+        "point": "10000",
+        "value": 0,
+        "value2": "19",
         "rank": "user"
     }
 ]
