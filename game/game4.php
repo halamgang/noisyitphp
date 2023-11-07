@@ -72,7 +72,7 @@ echo "</p>";
 <div id="click-count-container">
     <p>반응속도: <span id="reaction-time"></span>ms</p>
     <p>평균반응속도: 200ms</p>
-    <p>평균반응속도보다 빠르다면! 포인트가 지급됩니다! 단! 느리면 차감됩니다!</p>
+    <p>평균반응속도보다 빠르다면! 1000 포인트가 지급됩니다! 단! 느리면 1000P차감됩니다!</p>
 </div>
 
 <script>
@@ -111,9 +111,9 @@ function handleClick() {
         document.getElementById('reaction-time').textContent = reactionTime; // 반응속도 표시
         
         if (reactionTime < 200) {
-            updatePoints(50); // 평균반응속도보다 빠를 경우 포인트 추가 (예시로 50 포인트 추가)
+            updatePoints(1000); // 평균반응속도보다 빠를 경우 포인트 추가 (예시로 50 포인트 추가)
         } else {
-            updatePoints(-30); // 평균반응속도보다 느릴 경우 포인트 감소 (예시로 30 포인트 감소)
+            updatePoints(-1000); // 평균반응속도보다 느릴 경우 포인트 감소 (예시로 30 포인트 감소)
         }
         
         isGameStarted = false;
