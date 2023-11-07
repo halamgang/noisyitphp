@@ -48,7 +48,7 @@ $new_user = [
     'phone' => encryptData($user_phone, $key),
     'point' => 10000,
     'value' => 0,
-    'value2' => 0,
+    'value2' => 20,
     'rank' => 'user'
 ];
 
