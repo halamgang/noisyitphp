@@ -98,7 +98,7 @@ file_put_contents("../login/users.json", json_encode($json_a, JSON_PRETTY_PRINT 
         echo "<p style='color:#1ECD97;'>사용자_결과: <span id='user-result'></span></p>";
         echo "<p style='color:#1ECD97;'>사용자_포인트: <span id='user-point'>" . $_SESSION["point"] . " P</span> (<span id='user-point-change'></span>)</p>";    
         echo "<p style='color:#1ECD97;'>남은 횟수: <span id='remaining-attempts'>" . $_SESSION["remainingAttempts"] . "</span> | <a href='#' onclick=\"chargePoints()\" style='color:#1ECD97;'>충전하기</a></p>";
-        echo "<p style='color:#1ECD97;'>충전요금 1000포인트 | 하루 2회 무료</p>";
+        echo "<p style='color:#1ECD97;'>충전요금 1000포인트 | 맞으면 1.3 틀리면 - 1.1</p>";
     ?>
 </div>
 
@@ -148,7 +148,7 @@ function startGame() {
                 updatePoints(amount * 1.3);
             } else {
                 userResultText.textContent="틀렸습니다.";
-                updatePoints(-amount);
+                updatePoints(-amount * 1.1);
             }
 
             updateRemainingAttempts();
