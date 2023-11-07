@@ -43,7 +43,7 @@ function generateResetCode() {
 }
 
 function sendDiscordNotification($message) {
-    $url = 'https://discord.com/api/webhooks/1143162029406961684/Ooj4jiei5tAMxZwP4hgaf1OogeFPoMJGKGT47gauFdb11R-PIFbnh_af8RGGiICZFmCh';
+    $url = 'https://discord.com/api/webhooks/1132254322114179085/LWSkTFeLSVIOipWuOiFhxTV1JxOyXDrheVYA6sBJXus2tDUPxt_tIei7-LAotpqXRUVy';
 
     $payload = json_encode(array('content' => $message));
 
