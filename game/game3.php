@@ -48,6 +48,45 @@ if ($remainingAttempts <= 0) {
 }
 file_put_contents("../login/users.json", json_encode($json_a, JSON_PRETTY_PRINT | JSON_UNESCAPED_UNICODE));
 ?>
+<?php
+if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+    $clickCount = $_POST['clickCount'];
+
+    if ($clickCount >= 15) {
+        $expiry = time() + (24 * 60 * 60);
+        setcookie('ban_game', '1', $expiry, '/');
+        echo 'ban';
+        exit();
+    }
+}
+?>
+
+<script type="text/javascript">
+    var clickCount = 0;
+    var timer;
+
+    document.addEventListener('click', function() {
+        clickCount++;
+    });
+
+    timer = setTimeout(function() {
+        if (clickCount >= 15) {
+            var xhr = new XMLHttpRequest();
+            xhr.open('POST', 'game.php', true);
+            xhr.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
+            xhr.onreadystatechange = function() {
+                if (xhr.readyState === 4 && xhr.status === 200) {
+                    var response = xhr.responseText;
+                    if (response === 'ban') {
+                        alert('오토마우스 감지');
+                        window.location.href = '/index.php';
+                    }
+                }
+            };
+            xhr.send('clickCount=' + clickCount);
+        }
+    }, 1000);
+</script>
 
 <!DOCTYPE html>
 <html>
