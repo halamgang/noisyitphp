@@ -85,7 +85,7 @@ if (!isset($_COOKIE['noisy_web_pass'])) {
 <footer>
   <nav class="center">
     <a href='https://drive.google.com/file/d/117nJPBQ3u1flR7c8KsQ_PEse6wT1EBW0/view' target='_blank'>이용약관</a> |
-    <a href='game/info.php' target='_blank' >"만든사람들!"</a> |
+    <a href='game/info.php' target='_blank' >"NOISY IT"</a> |
     <a href='https://drive.google.com/file/d/117nJPBQ3u1flR7c8KsQ_PEse6wT1EBW0/view' target='_blank'>개인정보</a>
   </nav>
     <p class="center">
@@ -150,7 +150,7 @@ if (isset($user_username)) {
   </div>
 
   <div class="layout button" id="myinfo" onclick="clmu()">서라벌 랭킹즈</div>
-  <div class="layout button" id="myvote" onclick="mine()">나의 정보</div>
+  <div class="layout button" id="myvote" onclick="mine()">정보 수정</div>
   
   <!-- 경기 결과(팀,점수) -->
 
@@ -174,9 +174,9 @@ if (isset($user_username)) {
   <div class="play2" id="dash2"><b>-</b></div>
   
   <!-- layout(3) -->
-  <div class="button" id="firstGrade" onclick="openGrade()"><b>학년별<br>축구 승리 베팅</b></div>
+  <div class="button" id="firstGrade" onclick="openGrade()"><b>학년별 | 준비중<br>축구 승리 베팅</b></div>
   <div class="button" id="secondGrade" onclick="games()"">
-      <b>베팅 | </b><b style="color: pink;">이벤트!</b><br>서라벌 미니토토
+      <b>베팅 | </b><b style="color: pink;">이벤트!</b><br>서라벌 미니게임
   </div>
 
   <!-- <div class="button" id="gift" onclick="openGift()"><b>이용방법</b></div> -->
