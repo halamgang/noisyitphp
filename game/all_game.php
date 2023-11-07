@@ -135,12 +135,12 @@ if (!isset($_COOKIE['noisy_web_pass'])) {
     <a href="game2.php">
        <img src="https://media.discordapp.net/attachments/1170615078060568606/1170615115914158150/20231002_010218.GIF?ex=6559af48&is=65473a48&hm=5e39de1908bc0c29505db5541c29c8e5a8300c10c932fca0ef591d737a4dc95b&=" alt="GIF">
     </a>  
-<!-- 대기 || 준비중입니다.
   </div>
       <div class="box">
-      <a href="game4.phg">
+      <a href="game4.php">
          <img src="https://media.discordapp.net/attachments/1170615078060568606/1170615115456970822/20231002_010237.GIF?ex=6559af48&is=65473a48&hm=cc09286670fe7f295e07ae219462ef9e5c5fab381c6dc6e54185bf79e0a651d5&=" alt="GIF">
       </a>  
+    <!-- 대기 || 준비중입니다.
     </div>
       <div class="box">
       <a href="https://www.google.com">
