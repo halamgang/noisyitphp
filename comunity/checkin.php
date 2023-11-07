@@ -12,7 +12,7 @@ session_start();
       // 해당 사용자의 출석체크 여부 확인
       if (isset($checkinData[$today][$_SESSION['username']])) {
         // 이미 출석체크를 한 경우
-        echo "<script>alert('오늘은 이미 출석체크를 하셨습니다.');</script>";
+        echo "<script>alert('오류로 인해 지급 실패했습니다.. 현재 하루에 한번 1K 포인트를 드리고 있습니다!');</script>";
       } else {
       // users.json 파일 읽기
       $userList = json_decode(file_get_contents('../login/users.json'), true);
