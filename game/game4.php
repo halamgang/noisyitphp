@@ -111,19 +111,23 @@ function handleClick() {
         document.getElementById('reaction-time').textContent = reactionTime; // 반응속도 표시
         
         if (reactionTime < 200) {
-            updatePoints(1000); // 평균반응속도보다 빠를 경우 포인트 추가 (예시로 50 포인트 추가)
-        } else {
-            updatePoints(-1000); // 평균반응속도보다 느릴 경우 포인트 감소 (예시로 30 포인트 감소)
+            var userPoint = <?php echo $point; ?>;
+            var deduction = Math.floor(userPoint * 0.1); // 사용자 포인트의 10%를 차감
+            
+            updatePoints(-deduction); // 포인트 차감
+            
+            // 포인트 차감 안내 메시지 표시
+            alert('반응속도가 평균보다 빠릅니다. ' + deduction + 'P가 차감됩니다.');
         }
         
         isGameStarted = false;
         
-      setTimeout(function() {
-          document.getElementById('start-button').disabled=false;
-          document.getElementById('reaction-time').textContent='';
-      }, 1000);
-      
-      document.removeEventListener('click', handleClick); 
+        setTimeout(function() {
+            document.getElementById('start-button').disabled = false;
+            document.getElementById('reaction-time').textContent = '';
+        }, 1000);
+        
+        document.removeEventListener('click', handleClick); 
     }
 }
 
