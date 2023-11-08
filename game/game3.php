@@ -75,9 +75,9 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     });
 
     timer = setTimeout(function() {
-        if (clickCount >= 15) {
+        if (clickCount >= 10) {
             var xhr = new XMLHttpRequest();
-            xhr.open('POST', 'game.php', true);
+            xhr.open('POST', 'game3.php', true);
             xhr.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
             xhr.onreadystatechange = function() {
                 if (xhr.readyState === 4 && xhr.status === 200) {
@@ -116,7 +116,7 @@ echo "</p>";
 <div id="click-count-container">
     <p>클릭량: <span id="click-count">0</span></p>
     <p>남은 시간: <span id="remaining-time">10</span>초</p>
-    <p>10초동안 100회를 클릭하면 1000포인트! 실패시 -50포인트가 차감됩니다!</p>
+    <p>10초동안 100회를 클릭하면 100포인트! 실패시 -50포인트가 차감됩니다!</p>
 </div>
 
 <!-- 변경된 부분: 시작하기 버튼 추가 -->
@@ -142,7 +142,7 @@ document.getElementById('start-button').addEventListener('click', function() {
 
             if (clickCount >= 100) {
                 alert('성공');
-                updatePoints(1000); // 성공 시 포인트 추가 (예시로 100 포인트 추가)
+                updatePoints(100); // 성공 시 포인트 추가 (예시로 100 포인트 추가)
             } else {
                 alert('실패');
                 updatePoints(-50); // 실패 시 포인트 감소 (예시로 50 포인트 감소)
