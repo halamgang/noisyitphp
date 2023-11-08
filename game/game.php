@@ -76,11 +76,11 @@ file_put_contents("../login/users.json", json_encode($json_a, JSON_PRETTY_PRINT 
           <div class="line"></div>
 
          <div class="input-container">
-           <label for="choice-input">홀</label>
-           <input type="radio" id="choice-input-odd" name="choice" value="홀">
+           <label for="choice-input">불</label>
+           <input type="radio" id="choice-input-odd" name="choice" value="불">
 
-           <label for="choice-input">짝</label> 
-           <input type="radio" id="choice-input-even" name="choice" value ="짝">
+           <label for="choice-input">물</label> 
+           <input type="radio" id="choice-input-even" name="choice" value ="물">
          </div>
 
          <div class = "input-container">
@@ -129,16 +129,16 @@ function startGame() {
 
             var aiResult;
             if (randomNum % 2 === 0) {
-                aiResult = "짝";
+                aiResult = "불";
             } else {
-                aiResult = "홀";
+                aiResult = "물";
             }
 
             var userChoice;
             if (choiceOdd.checked) {
-                userChoice = "홀";
+                userChoice = "불";
             } else {
-                userChoice ="짝";
+                userChoice ="물";
             }
 
             aiResultText.textContent=aiResult;
@@ -157,7 +157,7 @@ function startGame() {
             alert("금액을 입력해주세요.");
         }
     } else {
-        alert("홀 또는 짝을 선택해주세요.");
+        alert("불 또는 물 선택해주세요.");
     }
 }
 
