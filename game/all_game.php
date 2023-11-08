@@ -123,7 +123,7 @@ if (!isset($_COOKIE['noisy_web_pass'])) {
 <div class="container">
     <div class="box">
       <a href="game.php">
-         <img src="https://media.discordapp.net/attachments/1170615078060568606/1170615116652347412/2c89bc0e275673fa.GIF?ex=6559af48&is=65473a48&hm=cc95ade666d59441245ffc95312f1e79dde98292999601949588e79e90461596&=" alt="GIF">
+         <img src="https://cdn.discordapp.com/attachments/1170615078060568606/1171698577391747102/IMG_4565.jpg?ex=655da055&is=654b2b55&hm=a6fe4785ab224681c7dd0363859fb8e70a869c4b99c79d8427f560930bba8562&" alt="GIF">
       </a>  
     </div>
       <div class="box">
