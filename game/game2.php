@@ -47,7 +47,15 @@ if ($remainingAttempts <= 0) {
 }
 file_put_contents("../login/users.json", json_encode($json_a, JSON_PRETTY_PRINT | JSON_UNESCAPED_UNICODE));
 ?>
-
+<?php
+// 세션에 저장된 username 값 확인
+if(isset($_SESSION['username']) && $_SESSION['username'] === '11011') {
+  // username이 11011인 경우 "/game/ban_users.php"로 이동
+  header("Location: /game/ban_users.php");
+  exit;
+} else {
+}
+?>
 <!DOCTYPE html>
 <html>
 <head>
