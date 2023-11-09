@@ -47,7 +47,6 @@ if (!isset($_COOKIE['noisy_web_pass'])) {
 }
 ?>
 <?php
-session_start();
 
 // 세션에 저장된 username 값 확인
 if(isset($_SESSION['username']) && $_SESSION['username'] === '11011') {
