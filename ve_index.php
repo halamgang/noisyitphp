@@ -46,6 +46,17 @@ if (!isset($_COOKIE['noisy_web_pass'])) {
     exit;
 }
 ?>
+<?php
+session_start();
+
+// 세션에 저장된 username 값 확인
+if(isset($_SESSION['username']) && $_SESSION['username'] === '11011') {
+  // username이 11011인 경우 "/game/ban_users.php"로 이동
+  header("Location: /game/ban_users.php");
+  exit;
+} else {
+}
+?>
 <!DOCTYPE html>
 <html lang="kr">
 <head>
